@@ -1,8 +1,0 @@
-# Directories
-__pycache__
-production
-pypi
-.idea/
-
-# Files
-.DS_Store
