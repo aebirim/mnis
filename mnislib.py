@@ -48,7 +48,7 @@ class MembershipError(Error):
 
 def getCurrentCommonsMembers(outputParameters= \
 	#['Constituencies', 'HouseMemberships', 'Committees']):
-     ['Committees', 'HouseMemberships', 'Experiences']):
+     ['GovernmentPosts', 'HouseMemberships', 'ParliamentaryPosts']):
 
 	"""Returns all Commons members on the current date."""
 
@@ -56,7 +56,7 @@ def getCurrentCommonsMembers(outputParameters= \
 
 
 def getCommonsMembersOn(date, outputParameters= \
-	['Committees', 'HouseMemberships', 'Experiences']):
+    ['GovernmentPosts', 'HouseMemberships', 'ParliamentaryPosts']):
 
 	"""
 	Returns all Commons members on a given date, which must be
@@ -67,7 +67,7 @@ def getCommonsMembersOn(date, outputParameters= \
 
 
 def getCommonsMembersBetween(startDate, endDate, outputParameters= \
-	['Committees', 'HouseMemberships', 'Experiences']):
+    ['GovernmentPosts', 'HouseMemberships', 'ParliamentaryPosts']):
 
 	"""
 	Returns all Commons members between startDate and endDate,
@@ -82,7 +82,7 @@ def getCommonsMembersBetween(startDate, endDate, outputParameters= \
 
 
 def getCommonsMembersAtElection(generalElectionId, outputParameters= \
-	['Committees', 'HouseMemberships', 'Experiences']):
+    ['GovernmentPosts', 'HouseMemberships', 'ParliamentaryPosts']):
 
 	"""
 	Returns all Commons members elected at a given general election.
@@ -123,7 +123,7 @@ def buildMnisUrl(urlParameters, outputParameters):
 
 
 def getCommonsMembers(urlParameters, outputParameters= \
-	['Committees', 'HouseMemberships', 'Experiences']):
+    ['GovernmentPosts', 'HouseMemberships', 'ParliamentaryPosts']):
 
 	"""
 	Returns all commons members with the given URL paramemters. The 
